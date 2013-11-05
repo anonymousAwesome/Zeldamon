@@ -4,8 +4,8 @@ The game itself is still early in development and is currently missing most of i
 
 Zeldamon is written for Python 3 and uses the Pygame and NumPy libraries.  The world maps are XML files created with the Tiled Map Editor.
 
-
 Contact Information:
 
 Name: Brendan Jones
+
 Email: brendan_kaizen@yahoo.com
