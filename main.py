@@ -6,6 +6,11 @@ import map
 
 pygame.init()
 
+WindowX=640
+WindowY=576
+
+#Create the main window
+screen=pygame.display.set_mode([WindowX,WindowY])
 
 running=True
 
