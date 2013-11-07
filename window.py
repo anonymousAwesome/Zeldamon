@@ -1,21 +1,15 @@
 import pygame
+import map
 
 WindowX=640
 WindowY=576
 
-pygame.init()
-
 #Create the main window
 screen=pygame.display.set_mode([WindowX,WindowY])
-
-#I placed "import map" here because some of map's functions require an active display
-#and an initialized pygame.
-import map
 
 
 #Create a Rect the same size as the screen to use as a camera.
 VirtualWindow=pygame.Surface.get_rect(screen)
-
 
 
 # Used to manage how fast the screen updates

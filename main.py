@@ -4,16 +4,18 @@ import player
 import map
 
 
-#Loop until the user clicks the close button.
-done=False
+pygame.init()
+
+
+running=True
 
 
 # -------- Main Program Loop -----------
-while done==False:
+while running:
 	# ALL EVENT PROCESSING SHOULD GO BELOW THIS COMMENT
 	for event in pygame.event.get(): # User did something
 		if event.type == pygame.QUIT: # If user clicked close
-			done=True # Flag that we are done so we exit this loop
+			running=False # Flag that we are done so we exit this loop
 		if event.type == pygame.KEYDOWN:
 			if event.key == pygame.K_SPACE:
 						#Cycles through the existing pokemon, using code and variables from the player module
